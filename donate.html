@@ -10,45 +10,104 @@
 </head>
 
 <body>
-    <main class="bg-warning">
-        <div class=" container ">
-            <img src="images/WhatsApp Image 2024-01-26 at 12.13.11 AM.jpeg" class="img-fluid">
-        </div>
-        <div class="container d-lg-block d-none">
-            <div class="d-flex flex-row justify-content-center border me-3 rounded-3 border-dark pb-2">
-                <div class="overflow-hidden d-xl-block d-none menu">
-                    <a class="float-start d-block media-d-none text-center px-3 py-2 mt-3 text-decoration-none  fs-5 font-weight-bold  me-4"
-                        href="home.html">HOME</a>
-                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
-                        href="about.html">ABOUT US</a>
-                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
-                        href="donate.html">DONATE US</a>
-                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
-                        href="videos.html">VIDEOS</a>
-                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold me-4"
-                        href="photos.html">PHOTOS</a>
-                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
-                        href="contact.html">CONTACT US</a>
+    <main>
+        <div>
+            <div class="image">
+                <img src="images/WhatsApp Image 2024-01-26 at 12.13.11 AM.jpeg" class="img-fluid">
+            </div>
+
+            <div class=" d-lg-block d-none">
+                <div class="d-flex flex-row justify-content-center pb-2">
+                    <div class="overflow-hidden d-xl-block d-none menu">
+                        <a class="float-start d-block media-d-none text-center px-3 py-2 mt-3 text-decoration-none  fs-5 font-weight-bold  me-4"
+                            href="index.html">HOME</a>
+                        <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
+                            href="about.html">ABOUT US</a>
+                        <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
+                            href="donate.html">DONATE US</a>
+                        <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
+                            href="videos.html">VIDEOS</a>
+                        <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold me-4"
+                            href="photos.html">PHOTOS</a>
+                        <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold  me-4"
+                            href="contact.html">CONTACT US</a>
+                    </div>
+
                 </div>
+            </div>
+            <div class=" d-lg-none d-block">
+                <form>
+                    <select class="form-control"
+                        onchange="window.location.replace(this.options[this.selectedIndex].value)"
+                        style="color: #1D532F; background-color:#FFDC2E; text-align: left;">
+                        <option value="">Menu</option>
+                        <option value="index.html">Home</option>
+                        <option value="about.html">About Us</option>
+                        <option value="donate.html">Donate Us</option>
+                        <option value="videos.html">Videos</option>
+                        <option value="photos.html">Photos</option>
+                        <option value="contact.html">Contact Us</option>
+                    </select>
+                </form>
 
             </div>
         </div>
-        <div class="container d-lg-none d-block ">
-            <form>
-                <select class="form-control" onchange="window.location.replace(this.options[this.selectedIndex].value)"
-                    style="color: #1D532F; background-color:#FFDC2E; text-align: left;">
-                    <option value="">Menu</option>
-                    <option value="home.html">Home</option>
-                    <option value="about.html">About Us</option>
-                    <option value="donate.html">Donate Us</option>
-                    <option value="videos.html">Videos</option>
-                    <option value="photos.html">Photos</option>
-                    <option value="contact.html">Contact Us</option>
-                </select>
-            </form>
+        <div class="container">
+            <div class="container px-lg-5 border border-dark mt-3"  align="justify">
+                <div class="mx-5 px-4 mt-3 text-center py-2 home-2">
+                    <h4 class="mt-1">Donate us</h4>
+                </div>
+                <br>
+                <div class="d-lg-flex col-lg-5">
+                    <div class="container  p-5  mx-lg-3 ">
+                        <div class="">
+                            <font size="+1" style="font-weight: bold;"><br>PUJYA SINDHI CENTRAL PANCHAYAT
+                                <hr>Bank Name : ICICI Bank
+                                <hr>Bank Branch : Adarsh Nagar, Jaipur
+                                <hr>SB Account No. : 674201701855
+                                <hr>IFS Code : ICIC0006742
+                                <hr>
+                            </font>
+                        </div>
+                        <div class="container">
+                            <br><img src="BankQR.png" style="border: 1px solid green;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
+        <div class="m-5">
+            <font color="#AE374A">
+                <font color="#cb2593">
 
+                    <div class="container">
+                        <footer>
+
+                            <div class="d-flex flex-column align-items-center text-center">
+
+                                <h1 style="font-size: 150%">पूज्य सिन्धी सेंट्रल पंचायत, जयपुर महानगर</h1>Email: <a
+                                    href="mailto: pujyasindhicentralpanchayat.jpr@gmail.com"
+                                    style="font-weight: bold; color: #00008B">pujyasindhicentralpanchayat.jpr@gmail.com</a><br><br>रजिस्टर्ड
+                                कार्यालयः- एफ-1, हरिओम प्लाजा, दुकान नं 24 के पीछे प्रथम तल, इन्दिरा बाजार,
+                                जयपुर-302003<br>मुख्य कार्यालय:- सिन्धु सागर भवन, सेक्टर-17, कुम्भा मार्ग, प्रताप
+                                नगर, सांगानेर जयपुर-302035 (राज.)<br><br>अध्यक्षीय निवास पता:-8ए, वैष्णवी, सिंधी
+                                कॉलोनी, पिंक स्क्वॉयर मॉल के सामने वाली रोड, राजापार्क, जयपुर-302004 (राज.)<br>मो.
+                                9314505592. 9928335592<br>Email: <a href="mailto: advocate.cpkhetani@gmail.com"
+                                    style="font-weight: bold; color: #00008B">advocate.cpkhetani@gmail.com</a><br><br>
+                                <a href="contact.php"
+                                class="text-danger  fs-3">
+                                    <u >Location Map</u>
+                                </a>
+
+                            </div>
+
+                        </footer>
+                    </div>
+                </font>
+            </font>
+        </div>
     </main>
 </body>
 

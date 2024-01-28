@@ -1,5 +1,5 @@
 .menu  a:hover{
-    background-color:rgb(247, 194, 72);
+    background-color: rgb(201, 237, 250);
 }
 .menu a{
     color: black;
@@ -46,12 +46,12 @@
     width: 100vw;
 }
 .home-1{
-    background-color: rgb(247, 194, 72);
+    background-color: rgb(201, 237, 250);
 }
 .home-h4{
     font-weight: normal;
 }
 .home-2{
-    background-color:rgb(247, 194, 72) ;
+    background-color: rgb(201, 237, 250) ;
     border-radius: 15px;
 }
